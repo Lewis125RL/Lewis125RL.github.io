@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nushu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Tilt+Prism&display=swap');
+ 
+ body {
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1617896376265-28bcb35febf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1072&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-top:10px;
+  padding-left: 10%;
+  padding-right: 17%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+  font-size: 40px;
+  font-family: 'Cedarville Cursive', cursive;
+  color: beige;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color:lightblue;
+  transition:.3s;
+}
+
+span{
+  color:yellow;
+}
+
+.secondletter{
+  color: orange;
+}
+
+.thirdletter{
+  color: red;
+}
+.fourthletter{
+  color: lightblue;
+}
+.fifthletter{
+  color: #90ee90;
+}
+.sixletter{
+  color:lightcoral;
+}
+
+
+
+.pfp{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: ;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Noto Sans Nushu', sans-serif;
+}
+
+p{
+  font-size: 25px;
+  letter-spacing: 1.4px;
+  text-align: justify;
+  margin: 49px;
+  line-height: 1.4;
+  border-radius: 5px;
+}
+
+.paragraph{
+  background-color: bisque;
+  border-radius: 5px;
+  margin-left: 155px;
+  margin-right: 155px;
+  box-shadow: 5px 5px 10px black;
+}
+@media(max-width:600px) {
+  p{
+    font-size: 100%;
+    letter-spacing: 1.4px;
+    text-align: justify;
+    margin: 49px;
+    line-height: 1.4;
+    border-radius: 5px;
+  }
+
+  
+}
+  
+
+
+.column{
+   flex-grow: 1;
+   text-align: center;
+   flex-wrap: wrap;
+}
+
+.container{
+  display: flex;
+}
+
+img{
+  border-radius: 30px;
+  
+}
+
+h
